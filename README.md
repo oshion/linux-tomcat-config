@@ -8,7 +8,7 @@ sudo vi server.xml
 
     <Connector port="1111" protocol="HTTP/1.1"
                connectionTimeout="20000"
-               redirectPort="8443"
+               redirectPort="1234"
             URIEncoding="UTF-8"/>
 
 
